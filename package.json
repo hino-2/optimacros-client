@@ -1,0 +1,29 @@
+{
+  "name": "optimacros-client",
+  "version": "1.0.0",
+  "description": "optimacros test client",
+  "main": "/build/index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc -p tsconfig.json --allowJs --outDir ./build",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hino-2/optimacros-client.git"
+  },
+  "keywords": [
+    "optimacros",
+    "client",
+    "test"
+  ],
+  "author": "i.am@igor-ushakov.ru",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0"
+  }
+}
